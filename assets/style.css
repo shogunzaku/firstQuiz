@@ -1,0 +1,13 @@
+
+/* container box  */
+#container{
+    margin : 20px auto;
+    background-color: teal;
+    height: 300px;
+    width : 700px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+}
+
+
