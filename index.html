@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,29 @@
     <link rel="stylesheet" href="assets/style.css" />
     <title>Lets Take a Quiz</title>
 </head>
+
 <body>
-<!-- My container and on click choices -->
-<div id="container"></div>
-
-
-
-
-
-
-
-
-    
+    <!-- My container and on click choices -->
+    <div id="container"></div>
+    <div id="start">Start Quiz!</div>
+    <div id="quiz" style="display:none">
+        <div id="question"></div>
+        <div id="qImg"></div>
+        <div id="choices"></div>
+        <div id="choices">
+            <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+            <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+            <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+          </div> 
+          <div id="timer">
+            <div id="counter"></div>
+            <div id="btimegauge"></div>
+        </div>
+        <div id="progress"></div>
+      </div>
+      <div id="scoreContainer" style="display: none"></div>
+      </div>
+<script src="assets/script.js"></script>
 </body>
+
 </html>
